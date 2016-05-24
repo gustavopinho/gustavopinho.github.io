@@ -1,0 +1,83 @@
+body {
+	background-color:  #ebebeb;
+	margin-top: 0px;
+	font-family: 'Ubuntu', serif;
+}
+
+h1, h2, h3, h4 {
+	color: #4f4e50;
+}
+
+.container {
+	margin: auto;
+	margin-top: 0px;
+	padding: 10px;
+	width: 900px;
+	background-color:  #ffffff;
+}
+
+.header {
+
+}
+
+.header nav ul {
+	padding-left: 0px;
+	-webkit-padding-start: 0px;
+	padding-start: 0px;
+}
+
+.header nav ul li {
+	list-style: none;
+	display: inline;
+	padding: 0px;
+}
+
+.header nav ul li a {
+	padding: 5px;
+}
+
+.header nav ul li a:hover,
+.header nav ul li a:visited,
+.header nav ul li a:link {
+	text-decoration: none;
+	color: #605f61;
+	font-weight: bolder;
+}
+
+.header nav ul li a:active {
+	color: #1484c3;
+}
+
+.header nav ul li a:hover {
+	background-color: #f5f5f5;
+}
+
+.content {
+	padding: 10px;
+}
+
+article ul li {
+	list-style: none;
+	line-height: 26px;
+}
+
+.about {
+	text-align: justify;
+}
+
+article ul li a:hover,
+article ul li a:visited,
+article ul li a:link,
+article ul li a:active {
+	text-decoration: none;
+	color: #276881;
+}
+
+.posts a {
+	font-size: 18px;
+}
+
+.footer {
+	text-decoration: none;
+	text-align: right;
+}

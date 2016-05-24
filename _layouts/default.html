@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="{{ page.description }}">
+        <meta name="keywords" content="{{ page.keywords }}">
+        <meta name="author" content="Jorge Gustavo dos Santos Pinho">
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="/style/styles.css">
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu">
+    </head>
+  <body>
+      <div class="container">
+          <div class="header">
+              <nav>
+                  <ul>
+                      <li><a href="/">Gustavo Pinho</a></li>
+                      <li><a href="/blog">Blog</a></li>
+                  </ul>
+              </nav>
+          </div>
+          <div class="content">
+              {{ content }}
+          </div>
+          <div class="footer">
+              <p>
+                  Gustavo Pinho - <a href="http://gustavopinho.com">gustavopinho.com</a><br>
+              </p>
+          </div>
+      </div>
+  </body>
+</html>

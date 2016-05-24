@@ -1,0 +1,19 @@
+---
+layout: default
+title: Blog gustavopinho.com
+subtitle: Blog
+description: Blog Pessoal
+keywords: Blog, Gustavo, Pinho, Jorge
+author: gustavo
+---
+
+<section>
+    <article>
+        <h3>Arquivos</h3>
+        <ul class="posts">
+            {% for post in site.posts %}
+                <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </article>
+</section>

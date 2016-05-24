@@ -1,0 +1,15 @@
+name: Gustavo Pinho
+description: Site pessoal Gustavo Pinho
+url: http://gustavopinho.com/
+markdown:    kramdown
+highlighter: rouge
+
+authors:
+    gustavo:
+        display_name: Gustavo Pinho
+        gravatar: 6d49e0ea3a4b28fd39590b2ce17418fb
+        email: gustavopinho@gustavopinho.com
+        web: http://gustavopinho.com
+        twitter: JG_Pinho
+        github: gustavopinho
+        linkedin: gustavo-pinho
