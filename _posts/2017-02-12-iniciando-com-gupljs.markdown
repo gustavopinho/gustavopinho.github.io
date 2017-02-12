@@ -1,12 +1,11 @@
 ---
 layout: post
-title:  "Iniciando com Gulpjs"
+title:  "Iniciando com Gulp"
+description: "Esse artigo pretende te mostrar como iniciar com o Gulp"
 date:   2017-02-12 11:50
 author: gustavo
 categories: blog
 ---
-
-# Iniciando com Gulp
 
 O Gulp sem dúvidas é uma ótima ferramenta para quem trabalha com front-end. Nesse artigo vou mostrar como iniciar com o gulp e como agilizar tarefas difíceis do nosso dia-dia.
 
