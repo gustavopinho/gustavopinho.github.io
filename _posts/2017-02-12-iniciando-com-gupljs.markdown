@@ -58,7 +58,7 @@ No nosso exemplo vamos usar os seguintes plugins do gulp:
 
 O **gulp-sass** é usado para converter os nossos arquivos sass para css, o **gulp-uglify** para minificar os nosssos arquivos .js, já o **gulp-jshint** fará a varedura dos nosso arquivos js e procurar possíveis erros ou problemas, o **gulp-csso** é usado para minificar os nosssos arquivos .css e por fim o **browser-sync** fará o trabalho de sincronizar todos os browser que estiverem executando a nossa aplicação e também fazer o reload em caso se alguma alteração em nossos arquivos.
 
-Abaixo segue o arquivo de configuração usado no nosso projeto:
+Abaixo segue o arquivo de configuração usado no projeto:
 
 <script src="https://gist.github.com/gustavopinho/0352925850dd668d7c599a2922e6c430.js"></script>
 
@@ -75,6 +75,8 @@ Conclusão
 
 Ainda sou novato no desenvolvimento com o gulp, mas até o momento estou gostando muito de usar essa poderosa ferramenta, com ela consegui poupar muito tempo no processo de desenvolvimento.
 
-Obrigado pela atenção, até o proximo post.
+Aqui você pode ver o projeto completo **[Iniciando com Gulp](https://github.com/gustavopinho/iniciando-com-gulp)**
+
+Obraço, até mais.
 
 
