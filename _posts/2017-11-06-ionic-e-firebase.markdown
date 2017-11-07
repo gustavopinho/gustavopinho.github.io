@@ -68,9 +68,9 @@ Esse comando serve para criar o nosso aplicativo, para saber mais [clique aqui](
 
 Digitado o comando precione a tecla "Enter" para iniciar a instalação do projeto. O processo de instalação também pode demorar um pouco por isso é importante ter paciência.
 
-Se tudo ocorrer bem o comando apresentará o resultado como na imagem abaixo.
+O comando deve apresentar o resultado como na imagem abaixo.
 
-![alt text](https://lh5.googleusercontent.com/KUwnfNvREylR961y_gq8jKt6IuGJQE45YM8Q5yromqJlDTCoad_XEkFLwa1L8eFNY4y2BZ3THr3WiLpAA6B3=w1440-h779 "Iniciando Projeto")
+![alt text](http://gustavopinho.github.io/static/img/iniciando o projeto.PNG "Iniciando Projeto")
 
 Depois de criado o projeto usaremos o comando:
 
@@ -84,41 +84,41 @@ Agora para testar o aplicativo use o comando:
 
 O comando deve apresentar uma saída como na imagem abaixo.
 
-![alt text](https://lh4.googleusercontent.com/HrRyaS-9DoUniY3y-XvIaAGvgz7CGbF25z9oDdygnvkQM07nGinrN3vNjC8jf99XgAduxlBjMYsJDsFo45-z=w1440-h779 "Testando o projeto")
+![alt text](gustavopinho.github.io/static/img/testando o projeto.PNG "Testando o projeto")
 
-Logo após o comando se tudo ocorrer bem será aberto uma janela do navegador com o aplicativo já em execusão.
+Logo após o comando será aberto uma janela do navegador com o aplicativo já em execusão.
 
-![alt text](https://lh5.googleusercontent.com/Rnl0RqJ3xEDi1SzEkm_Fpr3R2ouRzxoFqTGDJGq9mjO-671B1xknr_r0eyteZlcIjvrRoX6DvHfSHwMtIQaX=w1440-h779 "Aplicativo em execusão")
+![alt text](gustavopinho.github.io/static/img/aplicação e execução.PNG "Aplicativo em execusão")
 
 O aplicativo já está funcionando!
 
-Feitos os passos anteriores agora vamos abrir o nosso aplicativo no editor de texto que foi instalado, nesse caso o [Sublime Text 3](https://www.sublimetext.com/3), lembrando que o editor não faz muita diferênça você pode usar o que mais te agradar.
+Feitos os passos anteriores agora vamos abrir o nosso aplicativo no editor de texto [Sublime Text 3](https://www.sublimetext.com/3), lembrando que o editor não faz muita diferênça você pode usar o que mais te agradar.
 
 Aberto o editor navegaremos até a pasta onde foi criado o projeto e vamos selecinar a pasta e clicar em "Selecionar Pasta". Selecionada a pasta vamos conseguir ver o que foi criado com os passos anteriores.
 
-![alt text](https://lh5.googleusercontent.com/yziKIfVwd1YuNQ_ngrhACQI20AHgizl5UtIBPZVHpnmCpjV_RhoW63d6eTfh87ZdKl7AQdO0PsYXyslsvmy2=w1440-h779-rw "Primeira vista do editor")
+![alt text](gustavopinho.github.io/static/img/primeira vista editor.PNG "Primeira vista do editor")
 
-Como apresentado na imagem exitem diversas subpastas dentro do nosso projeto, mas para esse tutorial vamos nos atentar apenas à pasta **src**. Nela é onde vamos fazer todo o nosso trabalho.
+Como apresentado na imagem exitem diversas pastas dentro do nosso projeto, para esse tutorial vamos nos atentar apenas à pasta **src**, que é onde vamos fazer todo o nosso trabalho.
 
-A pasta **src** é composta de diversas outras subpastas e cada uma delas tem sua função para a construção do aplicativo, durante o desenvolvimento vamos falar sobre a função de cada uma delas e vamos também criar algumas que não exitem no nosso projeto.
+A pasta **src** é composta de diversas outras subpastas e cada uma delas tem sua finalidade na aplicação, durante o desenvolvimento vamos falar sobre a função de cada uma delas e vamos também criar algumas que não exitem no nosso projeto.
 
 
 Criando Página de Login
 =======================
 
-Quando foi criado o projeto optamos por usar um template que foi o **tabs**, esse templete já vem com algumas páginas prontas mas iremos usar somente a página **home** as outras páginas do aplicativo serão criadas do zero.
+Quando criamos o projeto optamos por usar o template **tabs**, esse template já vem com algumas páginas prontas, iremos usar somente a página **home** as outras páginas do serão criadas do zero.
 
-A primeira página que vamos cria e a de login. Ela será usada para o **cadastro** e **autenticação** dos usuários do aplicativo, para criar a página vá para o CMD e insira o seguinte comando.
+A primeira página que vamos cria e a de login. Ela será usada para o **cadastro** e **autenticação** dos usuários do aplicativo, para criar a página abra o CMD, navegue até o projeto e insira o seguinte comando.
 
 **ionig g page login**
 
-O **g** informa que vamos gerar alguma coisa, pode ser **g** ou **generate**. O **page** indica que coisa que vamos gerar nesse caso uma página, já o **login** informa o nome da coisa que vamos gerar.
+O **g** informa que vamos gerar alguma coisa, voce pode usar a opção **g** ou **generate** ambas fazer a mesma coisa. O **page** indica que coisa que vamos gerar nesse caso uma página, já o **login** informa que a pagina que vamos gerar se chamará login.
 
-Após o comando voltaremos ao editor e podemos verificar a página que foi gerada.
+Após o comando voltamos ao editor e podemos verificar os arquivos que foram gerados.
 
-![alt text](https://lh6.googleusercontent.com/3EkbgL5HNhwjeNRKRobbMin9hm0LmN_lTc0Cp-XkUN8LYAv49wJ5zDc4OL38WAMggQkpklpCpkNA1pJzNk-8=w1440-h779-rw "Página de login")
+![alt text](gustavopinho.github.io/static/img/página de login.PNG "Página de login")
 
-Na imagem podemos ver destacado em vermelho as pastas e os arquivos que foram criados com o comando para gerar as páginas. A página foi criado dentro da pasta **pages** e possuí quatro arquivos, no tutorial vamos alterar apenas os arquivos **login.html** e **login.ts**.
+Na imagem podemos ver destacado em vermelho as pastas e os arquivos que foram criados com o comando para gerar páginas. A página foi criado dentro da pasta **pages** e possuí quatro arquivos, no tutorial vamos alterar apenas os arquivos **login.html** e **login.ts**.
 
 Criada a página de login precisaremos de um serviço para fazer a autenticação dos usuários.
 
@@ -126,115 +126,94 @@ Criada a página de login precisaremos de um serviço para fazer a autenticaçã
 Cadastro e Autenticação
 ============
 
-Para criar o serviço de cadastro e autenticação vamos usar o Firebase, é necessário ter uma conta do GMAIL para fazer o cadasto, se ainda não tem uma conta do [clique aqui](https://accounts.google.com/SignUp?service=mail&continue=https://mail.google.com/mail/?pc=topnav-about-en).
+Para criar o serviço de cadastro e autenticação vamos usar o Firebase. Para acessar as funcionalidades do Firebase é necessário ter uma conta do GMAIL, se ainda não tem uma conta do GMAIL [clique aqui](https://accounts.google.com/SignUp?service=mail&continue=https://mail.google.com/mail/?pc=topnav-about-en).
 
 Se já possuí a conta então vamos direto para o cadastro no Firebase, [clique aqui para acessar](https://firebase.google.com/?hl=pt-br).
 
-![alt text](https://lh5.googleusercontent.com/Ev8WXaWnRIRcnRgm334eHqjkjjQgFS6cA6zEQmfVEUkRhixzV9iPpNR9sb0aqiyaZMVaUt2MRx50lx8LrGxh=w1440-h804-rw "Página inicial do firebase")
+![alt text](gustavopinho.github.io/static/img/firebase home.PNG "Página inicial do firebase")
 
-No canto superior da tela na imagem acima exite dois links um é o **GO TO CONSOLE** e o outro é o **FAZER LOGIN**, ambos vão nos direcionar para a página de login do Firebase mas vamos clicar no primerio **GO TO CONSOLE**, ele irá direcionar para a página onde vamos inserir os dados do email que criamos ou para quem já tinha um email do GMAIL inserir as credencias do email.
-
+No canto superior da tela, como na imagem acima, exite dois links um é o **GO TO CONSOLE** e o outro é o **FAZER LOGIN**, ambos vão nos direcionar para a página de autnticação do Firebase, no nosso exemplo vamos clicar no primerio link **GO TO CONSOLE**.
 Após o login vamos ser direcionados para a página de projetos.
 
-![alt text](https://lh5.googleusercontent.com/bI-7AUY2xRNq1ybjZXunSWipiIwQTmVfpoEj1oIWNOngBvJ6eaelnqB1ENWIiMHPqhtI3b9KEaXrWRyAOJHe=w1440-h804-rw "Tela para criar projeto")
+![alt text](gustavopinho.github.io/static/img/tela para adicionar projeto.PNG "Tela para criar projeto")
 
-Se não existir nenhum projeto criado teremos então duas opções **Adicionar projeto** e **Explorar projeto de demonstração**, no tutorial vamos na opção **Adicionar projeto** e vamos dar o nome de **Tarefas App**.
+Se não existir nenhum projeto criado teremos então duas opções **Adicionar projeto** e **Explorar projeto de demonstração**, no tutorial vamos na opção **Adicionar projeto** que vamos dar o nome de **Tarefas App**.
 
-![alt text](https://lh6.googleusercontent.com/zrE5RjJsqiOEjXZITPuiEIYRRwIaw4uT82nZoXzyRwe5GX_jaVRSch4UZKmesNVsNhrmXFiQZ6DKkRZ25b8O=w1440-h804 "Criando projeto")
+![alt text](gustavopinho.github.io/static/img/criando projeto firebase.PNG "Criando projeto")
 
 Na tela acima você irá informar o nome do projeto e o local do projeto que no nosso caso é Brasil. Após isso clique em **CRIAR PROJETO**.
 
-![alt text](https://lh4.googleusercontent.com/HimxjRtbfbsvKrh7-qo_5StDf9aYAuivU04Aw6maolrTL0VAm_z7RK5CVRZo3RnFQJ5PaUOPNOasBYhwZU1U=w1440-h804-rw "Firebase Dasbhoard")
+![alt text](gustavopinho.github.io/static/img/firebase dashboard.PNG "Firebase Dasbhoard")
 
 
-No menu esquerdo temos a opção **Authentication** conforme a imagem abaixo.
-
+No menu esquerdo temos diversas opções, para esse tutorial vamos selecionar a opção **Authentication**.
 
 Clicando em **Authentication** vamos ser direcionados para a página de configurações de autenticação conforme a imagem que segue.
 
-Clicando em **CONFIGURAR MÉTODO DE LOGIN** aparecerá uma página com diversas opçoes de configuração, para o nosso exemplo vamos escolher a primeira que **E-mail/Senha**. Clicando em cima dessa opção aparecerá uma tela para **Ativar** e **SALVAR**, primeiro vamos ativar e depois salvar comforme imagem abaixo:
+![alt text](gustavopinho.github.io/static/img/método de autenticação.PNG "Cofigurar método de autenticação")
+
+
+Clicando em **CONFIGURAR MÉTODO DE LOGIN** aparecerá uma página com diversas opçoes de configuração, para o nosso exemplo vamos escolher a primeira que **E-mail/Senha**. 
+
+![alt text](gustavopinho.github.io/static/img/lista dos metodos disponiveis.PNG "Lista de métodos disponíveis")
+
+Clicando na opção **E-mail/Senha** aparecerá uma tela para **Ativar** e **SALVAR**, primeiro vamos ativar e depois salvar comforme imagem abaixo:
+
+![alt text](gustavopinho.github.io/static/img/metodo email e senha.PNG "Método email e senha")
 
 
 Após ativarmos e salvarmos então na tela aparecerá que a opção **E-mail/Senha** está Ativa.
 
 
-Depois de ativada podemos copiar as configurações que vamos usar em nosso projeto clicando no botão **CONFIGURAÇÕES DA WEB** no canto superior direito da página.
+![alt text](gustavopinho.github.io/static/img/metodo email e senha ativado.PNG "Email e senha ativado")
 
 
-Após clicar aparecerá um caixa de dialogo com as configurações que vamos precisar no nosso projeto.
+Depois de ativado podemos copiar as configurações que vamos usar em nosso projeto clicando no botão **CONFIGURAÇÕES DA WEB** no canto superior direito da página. Após clicar aparecerá um caixa de dialogo com as configurações que vamos precisar no nosso projeto.
+
+![alt text](gustavopinho.github.io/static/img/configurações firebase.PNG "Configurações da WEB")
+
+Copie essas configurações e salve em uma arquivos de texto.
 
 
 Configurando o Firebase no Aplicativo
 -------------------------------------
 
-Como já fizemos o cadastro e já ativamos a opção de login podemos voltar para o nosso aplicativo para inserir as configurações.
+Feito o cadastro no Firebase e configurada a opção de autenticação vamos voltar para o aplicativo e inserir as configurações para funcionamento.
 
-Para conseguir usar o Firebase no nosso aplicativo Ionic vamos precisar usar uma biblioteca chamada [AngularFire](https://github.com/angular/angularfire2). Com ela que teremos acesso à todas as funcionalidades do Firebase, para adicionar voltamos para o CMD e vamos inserir o seguinte comando:
+Para conseguir usar o Firebase no aplicativo Ionic vamos usar uma biblioteca chamada [AngularFire](https://github.com/angular/angularfire2). Com ela teremos acesso à todas as funcionalidades do Firebase, para instalar a biblioteca vamos abrir o CMD e navegar até a pasta do projeto, já dentro da pasta vamos inserir o seguinte comando:
 
 **npm install firebase angularfire2 --save**
 
 O comando irá fazer o download do angularFire e apresentará uma saída parecida com a imagem abaixo:
 
-![alt text]( "Saída do comando de instalação do angularfire2")
+![alt text](gustavopinho.github.io/static/img/instalação do angularfire.PNG "Saída do comando de instalação do angularfire2")
 
-Terminado a instalação da biblioteca teremos que inserir as configurações necessária para que ela funcione corretamente. As configurações devem ser adicionadas no arquivo **src/app/app.module.ts**, e devem como o arquivo apresentado abaixo:
+Terminada a instalação da biblioteca teremos que inserir as configurações necessária para que ela funcione corretamente. As configurações devem ser adicionadas no arquivo **src/app/app.module.ts**, que ficará como o arquivo apresentado abaixo:
 
 <script src="https://gist.github.com/gustavopinho/50ff79ca9e521b79734d39cdf06edd63.js"></script>
-
-Nesse arquivo foi adicionado as seguites conficurações:
-
-- Importações dos módulos que vamos usar do FIREBASE
-
-**import { AngularFireModule } from 'angularfire2';**
-
-**import { AngularFireAuthModule } from 'angularfire2/auth';**
-
-- Adição das configurações que foram copiadas do console do firebase
-
-**let config = {**
-
-   **apiKey: "",**
-
-   **authDomain: "",**
-
-   **databaseURL: "",**
-  
-   **projectId: "",**
-
-   **storageBucket: "",**
-
-   **messagingSenderId: ""**
-
-**};**
-
-- Adicionar dentro do array **imports\[]**
-
-**AngularFireModule.initializeApp(config)***
-
-**AngularFireAuthModule***
 
 
 Após adicionadas as configurações podemos testar se está tudo funcionando com o comando:
 
 **ionic serve**
 
-Se tudo estiver correto o aplicativo será aberto no navegador.
+Se tudo estiver correto o aplicativo será aberto no navegador sem erros.
 
 
 Criando Serviço de Autenticação
 ==============================
 
-Depois que configuramos o Firebase vamos então criar o nosso serviço de autenticação que será usado na página de login do nosso aplicativo.
+Depois que configuramos o Firebase vamos criar o serviço de autenticação que será usado na página de login do nosso aplicativo.
 
-Primeiro vamos criar uma pasta chamada **models** dentro da pasta **src** do nosso aplicativo, dentro da pasta models vamos criar um arquivo com o nome **user.ts** e vamos inserir o conteúdo abaixo:
+Primeiro vamos criar uma pasta chamada **models** dentro da pasta **src** do aplicativo. Na pasta models vamos criar um arquivo com o nome **user.ts** e vamos inserir o conteúdo abaixo:
 
 <script src="https://gist.github.com/gustavopinho/7969e115d839aa13ea23a8a973d98539.js"></script>
 
-Após criar o arquivo **user.ts** vamos então criar de fato o nosso serviço de autenticação usando o seguinte comando:
+Após criar o arquivo **user.ts** vamos criar o serviço de autenticação usando o seguinte comando:
 
 **ionic g provider auth**
 
-Após criar o nosso serviço de autenticação vamos editar o arquivo que foi criado na pasta **src/providers/auth/auth.ts** e deixa-ló como o arquivo abaixo:
+Criado o serviço de autenticação vamos editar o arquivo que foi criado na pasta **src/providers/auth/auth.ts** e deixa-ló como o arquivo abaixo:
 
 <script src="https://gist.github.com/gustavopinho/53ebc44cf731b67cd9069e28b7d8586a.js"></script>
 
@@ -242,15 +221,15 @@ Após criar o nosso serviço de autenticação vamos editar o arquivo que foi cr
 Adicionando o Serviço de Autenticação na Página de Login
 ========================================================
 
-Depois de criado o serviço de autenticação podemos voltar para a página de **login** do nosso aplicativo para adicionar a autenticação e o cadastro de usuários.
+Depois de criado o serviço de autenticação podemos voltar para a página de **login** para adicionar a autenticação e o cadastro de usuários.
 
-O primeiro passo é editar o nosso arquivo **src/app/app.modules.ts** para registrar a nossa página de **login** (Todas as páginas criadas no nosso aplicativo devem ser registradas no arquivo app.modules.ts para que possam ser acessadas em qualquer parte do aplicativo).
+O primeiro passo é editar o nosso arquivo **src/app/app.modules.ts** para registrar a nossa página de **login**.
 
 Com a edição nosso arquivo ficará da seguite forma:
 
 <script src="https://gist.github.com/gustavopinho/eab389241381e8c09ea46f8484a53ff2.js"></script>
 
-O próximo arquivo que vamos editar é o **src/app/app.componet.ts**, vamos editar esse arquivo para ficar da seguite forma:
+O próximo arquivo que vamos editar é o **src/app/app.componet.ts**, ele ficará da seguite forma:
 
 <script src="https://gist.github.com/gustavopinho/f1a298b7152b007dda665576fbd5b5c5.js"></script>
 
@@ -270,15 +249,15 @@ Para:
 
 **rootPage:any = LoginPage;**
 
-Essa substituição torna a nossa página de login como a página principal do nosso aplicativo.
+Essa substituição torna a nossa página login a principal do nosso aplicativo.
 
 
-Adicionando a Lógica do Login e Cadastro
-----------------------------------------
+Login e Cadastro
+----------------
 
-Agora que já registramos e configuramos a nossa página de login como a principal página do nosso aplicativo vamos configurar o cadastro e a autenticação.
+Agora que já registramos e configuramos a página de login como a principal do aplicativo vamos configurar o cadastro e a autenticação de usuários.
 
-O primeiro arquivo que vamos editar é o **login.ts**, nesse arquivo e onde vamos usar o serviço de autenticação que criamos anteriormente.
+O primeiro arquivo que vamos editar é o **login.ts**, nesse arquivo e onde vamos usar o serviço de autenticação que criamos anteriormente. Abaixo segue o exemplo de como o arquivo deve ficar.
 
 <script src="https://gist.github.com/gustavopinho/3cfa9c2ce3738ea78f9d649e17a8e396.js"></script>
 
@@ -287,7 +266,7 @@ O segundo arquivo que vamos editar é o **login.html** onde vamos adicionar o fo
 
 <script src="https://gist.github.com/gustavopinho/05ab84c0810aea5338851cc6367cdcd3.js"></script>
 
-Após todos esse passos já temos o serviço de login e cadastro funcionando em nosso aplicativo e já podemos criar as outras funcionalidades de forma segura.
+Após todos esse passos já temos o serviço de login e cadastro funcionando no aplicativo e podemos criar as outras funcionalidades.
 
 
 
