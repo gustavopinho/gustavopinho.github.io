@@ -84,11 +84,11 @@ Agora para testar o aplicativo use o comando:
 
 O comando deve apresentar uma saída como na imagem abaixo.
 
-![alt text](gustavopinho.github.io/static/img/testando o projeto.PNG "Testando o projeto")
+![alt text](http://gustavopinho.github.io/static/img/testando o projeto.PNG "Testando o projeto")
 
 Logo após o comando será aberto uma janela do navegador com o aplicativo já em execusão.
 
-![alt text](gustavopinho.github.io/static/img/aplicação e execução.PNG "Aplicativo em execusão")
+![alt text](http://gustavopinho.github.io/static/img/aplicação e execução.PNG "Aplicativo em execusão")
 
 O aplicativo já está funcionando!
 
@@ -96,7 +96,7 @@ Feitos os passos anteriores agora vamos abrir o nosso aplicativo no editor de te
 
 Aberto o editor navegaremos até a pasta onde foi criado o projeto e vamos selecinar a pasta e clicar em "Selecionar Pasta". Selecionada a pasta vamos conseguir ver o que foi criado com os passos anteriores.
 
-![alt text](gustavopinho.github.io/static/img/primeira vista editor.PNG "Primeira vista do editor")
+![alt text](http://gustavopinho.github.io/static/img/primeira vista editor.PNG "Primeira vista do editor")
 
 Como apresentado na imagem exitem diversas pastas dentro do nosso projeto, para esse tutorial vamos nos atentar apenas à pasta **src**, que é onde vamos fazer todo o nosso trabalho.
 
@@ -116,7 +116,7 @@ O **g** informa que vamos gerar alguma coisa, voce pode usar a opção **g** ou 
 
 Após o comando voltamos ao editor e podemos verificar os arquivos que foram gerados.
 
-![alt text](gustavopinho.github.io/static/img/página de login.PNG "Página de login")
+![alt text](http://gustavopinho.github.io/static/img/página de login.PNG "Página de login")
 
 Na imagem podemos ver destacado em vermelho as pastas e os arquivos que foram criados com o comando para gerar páginas. A página foi criado dentro da pasta **pages** e possuí quatro arquivos, no tutorial vamos alterar apenas os arquivos **login.html** e **login.ts**.
 
@@ -130,47 +130,47 @@ Para criar o serviço de cadastro e autenticação vamos usar o Firebase. Para a
 
 Se já possuí a conta então vamos direto para o cadastro no Firebase, [clique aqui para acessar](https://firebase.google.com/?hl=pt-br).
 
-![alt text](gustavopinho.github.io/static/img/firebase home.PNG "Página inicial do firebase")
+![alt text](http://gustavopinho.github.io/static/img/firebase home.PNG "Página inicial do firebase")
 
 No canto superior da tela, como na imagem acima, exite dois links um é o **GO TO CONSOLE** e o outro é o **FAZER LOGIN**, ambos vão nos direcionar para a página de autnticação do Firebase, no nosso exemplo vamos clicar no primerio link **GO TO CONSOLE**.
 Após o login vamos ser direcionados para a página de projetos.
 
-![alt text](gustavopinho.github.io/static/img/tela para adicionar projeto.PNG "Tela para criar projeto")
+![alt text](http://gustavopinho.github.io/static/img/tela para adicionar projeto.PNG "Tela para criar projeto")
 
 Se não existir nenhum projeto criado teremos então duas opções **Adicionar projeto** e **Explorar projeto de demonstração**, no tutorial vamos na opção **Adicionar projeto** que vamos dar o nome de **Tarefas App**.
 
-![alt text](gustavopinho.github.io/static/img/criando projeto firebase.PNG "Criando projeto")
+![alt text](http://gustavopinho.github.io/static/img/criando projeto firebase.PNG "Criando projeto")
 
 Na tela acima você irá informar o nome do projeto e o local do projeto que no nosso caso é Brasil. Após isso clique em **CRIAR PROJETO**.
 
-![alt text](gustavopinho.github.io/static/img/firebase dashboard.PNG "Firebase Dasbhoard")
+![alt text](http://gustavopinho.github.io/static/img/firebase dashboard.PNG "Firebase Dasbhoard")
 
 
 No menu esquerdo temos diversas opções, para esse tutorial vamos selecionar a opção **Authentication**.
 
 Clicando em **Authentication** vamos ser direcionados para a página de configurações de autenticação conforme a imagem que segue.
 
-![alt text](gustavopinho.github.io/static/img/método de autenticação.PNG "Cofigurar método de autenticação")
+![alt text](http://gustavopinho.github.io/static/img/método de autenticação.PNG "Cofigurar método de autenticação")
 
 
 Clicando em **CONFIGURAR MÉTODO DE LOGIN** aparecerá uma página com diversas opçoes de configuração, para o nosso exemplo vamos escolher a primeira que **E-mail/Senha**. 
 
-![alt text](gustavopinho.github.io/static/img/lista dos metodos disponiveis.PNG "Lista de métodos disponíveis")
+![alt text](http://gustavopinho.github.io/static/img/lista dos metodos disponiveis.PNG "Lista de métodos disponíveis")
 
 Clicando na opção **E-mail/Senha** aparecerá uma tela para **Ativar** e **SALVAR**, primeiro vamos ativar e depois salvar comforme imagem abaixo:
 
-![alt text](gustavopinho.github.io/static/img/metodo email e senha.PNG "Método email e senha")
+![alt text](http://gustavopinho.github.io/static/img/metodo email e senha.PNG "Método email e senha")
 
 
 Após ativarmos e salvarmos então na tela aparecerá que a opção **E-mail/Senha** está Ativa.
 
 
-![alt text](gustavopinho.github.io/static/img/metodo email e senha ativado.PNG "Email e senha ativado")
+![alt text](http://gustavopinho.github.io/static/img/metodo email e senha ativado.PNG "Email e senha ativado")
 
 
 Depois de ativado podemos copiar as configurações que vamos usar em nosso projeto clicando no botão **CONFIGURAÇÕES DA WEB** no canto superior direito da página. Após clicar aparecerá um caixa de dialogo com as configurações que vamos precisar no nosso projeto.
 
-![alt text](gustavopinho.github.io/static/img/configurações firebase.PNG "Configurações da WEB")
+![alt text](http://gustavopinho.github.io/static/img/configurações firebase.PNG "Configurações da WEB")
 
 Copie essas configurações e salve em uma arquivos de texto.
 
@@ -186,7 +186,7 @@ Para conseguir usar o Firebase no aplicativo Ionic vamos usar uma biblioteca cha
 
 O comando irá fazer o download do angularFire e apresentará uma saída parecida com a imagem abaixo:
 
-![alt text](gustavopinho.github.io/static/img/instalação do angularfire.PNG "Saída do comando de instalação do angularfire2")
+![alt text](http://gustavopinho.github.io/static/img/instalação do angularfire.PNG "Saída do comando de instalação do angularfire2")
 
 Terminada a instalação da biblioteca teremos que inserir as configurações necessária para que ela funcione corretamente. As configurações devem ser adicionadas no arquivo **src/app/app.module.ts**, que ficará como o arquivo apresentado abaixo:
 
