@@ -266,7 +266,44 @@ O segundo arquivo que vamos editar é o **login.html** onde vamos adicionar o fo
 
 <script src="https://gist.github.com/gustavopinho/05ab84c0810aea5338851cc6367cdcd3.js"></script>
 
-Após todos esse passos já temos o serviço de login e cadastro funcionando no aplicativo e podemos criar as outras funcionalidades.
+
+Após os passos anteriores podemos testar o serviço de login e cadastro de usuários, abra o CMD navegue até a pasta do seu aplicativo e insira o comando.
+
+**ionic serve --lab**
+
+![alt text](# "Testando página de login")
+
+
+Testando meu App no Smartphone
+==============================
+
+Para o aplicativo no Smartphone devemos adicionar a plataforma que vamos usar, no nosso tutorial vamos adicionar a plataforma **Android**, abra o CMD navegue até a pasta do aplicativo e use o seguinte comando.
+
+**ionic cordova platform add android**
+
+Após adicionar a plataforma vamos ativar o modo desenvolvedor no smartphone, [segue o link ensinando como ativar](http://www.techtudo.com.br/dicas-e-tutoriais/noticia/2014/10/como-ativar-o-modo-desenvolvedor-no-android.html).
+
+Em alguns smartphones é necessário instalar o drive usb do aparelho, basta pesquisar no Google o drive para o modelo do seu smartphone, segue o link do drive de alguns:
+
+[Samsung](http://developer.samsung.com/galaxy/others/android-usb-driver-for-windows)
+
+[Motorola](https://motorola-global-portal-pt.custhelp.com/app/answers/detail/a_id/89879)
+
+[LG](http://www.lg.com/br/suporte/software-firmware)
+
+Ativado o modo desenvolvedor e instalado dos drivers necessários temos que habilitar a depuração usb em nosso smartphone, siga as instruções do [link para ativar](https://www.androidpit.com.br/como-ativar-depuracao-usb-android).
+
+Feito os passos anteriores vamos inserir o comando para executar o nosso aplicativo no smartphone.
+
+**ionic cordova run android**
+
+Se não ocorrer nenhum problema o aplicativo será aberto no smartphone.
+
+
+Criando o Cadastro de Tarefas
+=============================
+
+
 
 
 
