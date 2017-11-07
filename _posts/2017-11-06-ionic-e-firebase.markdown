@@ -273,6 +273,22 @@ Para:
 Essa substituição torna a nossa página de login como a página principal do nosso aplicativo.
 
 
+Adicionando a Lógica do Login e Cadastro
+----------------------------------------
+
+Agora que já registramos e configuramos a nossa página de login como a principal página do nosso aplicativo vamos configurar o cadastro e a autenticação.
+
+O primeiro arquivo que vamos editar é o **login.ts**, nesse arquivo e onde vamos usar o serviço de autenticação que criamos anteriormente.
+
+<script src="https://gist.github.com/gustavopinho/3cfa9c2ce3738ea78f9d649e17a8e396.js"></script>
+
+O segundo arquivo que vamos editar é o **login.html** onde vamos adicionar o formulário de login e os botões para login e cadastro:
+
+
+<script src="https://gist.github.com/gustavopinho/05ab84c0810aea5338851cc6367cdcd3.js"></script>
+
+Após todos esse passos já temos o serviço de login e cadastro funcionando em nosso aplicativo e já podemos criar as outras funcionalidades de forma segura.
+
 
 
 
